@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Docs: Dateselector</title>
+		<!-- CSS Stylesheet -->
+		<link rel="stylesheet" href="res/css/dateselector.min.css" type="text/css" />
+		<!-- Shortcut Icon -->
+		<link rel="shortcut icon" href="res/img/calendar.png" />
+		<!-- Scripts -->
+		<script src="libs/jquery-1.10.2.min.js"></script>
+		<script src="libs/dateselector.min.js"></script>
+		<!-- Dateselector script init -->
+		<script>
+			$(document).ready(function() {
+				$('#test').dateSelector();
+				$('#test2').dateSelector();
+			});
+		</script> 
+
+		<style>
+			#demo {
+				margin: 0 auto;
+				padding: 2em;
+				width: 70%;
+			}
+		</style>
+	</head>
+
+	<body>		
+		<div id="demo">
+			<p>Start Date</p>
+			<input type="text" id="test" />
+
+			<p>End Date</p>
+			<input type="text" id="test2" />
+		</div>
+	</body>
+
+</html>

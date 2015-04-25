@@ -1,0 +1,4 @@
+Version 1.0:
+- Initial build
+
+!! Read documentation (docs.txt) for detail information !!

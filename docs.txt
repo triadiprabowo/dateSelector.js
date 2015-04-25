@@ -1,0 +1,38 @@
+**********************************
+** DateSelector.js		**
+** Version 1.0 Initial Build	**
+** Personal-Use Open Source	**
+** Free build			**
+**********************************
+
+DateSelector.js
+----------------
+Description: make easier to pick the date for your projects with cool style and animation!
+
+Features:
+- User may select month Jan to Dec
+- User may select year  from 1970 to 2070
+- User may scroll the date picker
+- Disabled past dates 
+- User may select dates only from current month and next
+- Output will be set as 'dd-mm-yyyy'
+- Sunday automatically disabled
+- When disabled user cannot process the output of dateselector
+
+-------USE--------
+To use this plugin simply put this:
+
+<class name>.dateSelector();
+
+in head tag or before of </body> tag. Full example use:
+
+=============
+== Example ==
+=============
+<script>
+	$('.textbox').dateSelector();
+</script>
+
+
+Copyrights 2015 to Triadi Prabowo (triadiprabowo@gmail.com)
+- triadiprabowo.com
